@@ -1,0 +1,26 @@
+{
+  "name": "rxajax",
+  "version": "1.0.0",
+  "authors": [
+    "ReturntoZero <returntozero0@gmail.com>"
+  ],
+  "description": "this is an ajax action",
+  "main": "dist/ajaxaction.js",
+  "moduleType": [],
+  "keywords": [
+    "ajax"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

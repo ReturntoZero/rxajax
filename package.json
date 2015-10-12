@@ -1,0 +1,14 @@
+{
+  "name": "rxajax",
+  "version": "1.0.0",
+  "description": "This is a ajax component",
+  "main": "ajaxaction.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ajax"
+  ],
+  "author": "rex, bevis",
+  "license": "ISC"
+}
