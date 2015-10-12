@@ -2,7 +2,7 @@
   "name": "rxajax",
   "version": "1.0.0",
   "authors": [
-    "ReturntoZero <returntozero0@gmail.com>"
+    "Bevis <bevis0@binodata.com>"
   ],
   "description": "this is an ajax action",
   "main": "dist/ajaxaction.js",
