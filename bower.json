@@ -11,7 +11,7 @@
     "ajax"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/ReturntoZero/rxajax.git",
   "private": true,
   "ignore": [
     "**/.*",
