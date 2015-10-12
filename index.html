@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap 101 Template</title>
+
+    <script src="dist/jquery/jquery.min.js"></script>
+    <!-- 依需要參考已編譯外掛版本（如下），或各自獨立的外掛版本 -->
+    <script src="dist/ajaxaction.js"></script>
+
+
+
+
+  </head>
+  <body>
+     <script>
+      var url = "http://localhost:3000/data.json";
+      var config = { type: "GET", dataType: "json" };
+      
+      var sCallback = function successCallBack(){
+        console.log("success");
+      };
+      
+      var eCallback = function errorCallBack(){
+        console.log("error");      
+      };
+      
+      function myFunction() {
+          var message = AjaxAction(url, sCallback, eCallback, config);
+          console.log("Message: " + message);
+      }
+     
+      </script>
+	
+	<button onclick="myFunction()">Hello</button>
+	  
+  </body>
+</html>
