@@ -12,7 +12,6 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/ReturntoZero/rxajax.git",
-  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
